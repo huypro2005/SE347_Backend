@@ -161,9 +161,9 @@ pip install -r requirements.txt
 Tạo file `.env` trong thư mục `backendWeb/`:
 ```env
 DB_NAME=BATDONGSAN
-DB_USER=root
-DB_PASSWORD=your_password
-DB_HOST=localhost
+DB_USER={user_mysql}
+DB_PASSWORD={password_mysql}
+DB_HOST={localhost} hoặc  {host.docker.internal} nếu chạy docker
 DB_PORT=3306
 
 # Redis
