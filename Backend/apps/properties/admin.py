@@ -51,6 +51,3 @@ class PropertyAdmin(admin.ModelAdmin):
 
 
 
-
-
-
